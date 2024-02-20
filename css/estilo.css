@@ -49,3 +49,48 @@ iframe{
     padding: 15px;
     margin-bottom: 20px;
 }
+/*celular*/
+@media (min-width:700px)and(max-width:767px){
+    .container{
+        grid-template-areas: 2,1fr;
+        gap: 2rem;
+        grid-template-areas:
+        "header"
+        "main"
+        "nav"
+        "div"
+        "p"
+        "iframe"
+        "a"
+    }
+}
+/*tablet*/
+@media (min-width:768px)and(max-width:1023px){
+    .container{
+        grid-template-areas: 3,1fr;
+        gap: 2rem;
+        grid-template-areas:
+        "header"
+        "main"
+        "nav"
+        "div"
+        "p"
+        "iframe"
+        "a"
+    }
+}
+/*computadora*/
+@media (min-width:767px)and(max-width:768px){
+    .container{
+        grid-template-areas: 2,1fr;
+        gap: 2rem;
+        grid-template-areas:
+        "header"
+        "main"
+        "nav"
+        "div"
+        "p"
+        "iframe"
+        "a"
+    }
+}
